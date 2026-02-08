@@ -6,8 +6,27 @@
   <meta name="google-site-verification" content="JESWbUOqLzIquRLC4stXsZSV3indM874I6T1AITucks" />
   <title>{{TITLE}}</title>
   <meta name="description" content="{{DESCRIPTION}}" />
-  <script defer data-domain="cosmic-fox-d599ef.netlify.app" src="https://plausible.io/js/script.js"></script>
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-QppVx8DsmJJoz5XbyMex2.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init();
+  </script>
   <link rel="stylesheet" href="{{BASE}}/assets/site.css" />
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      const input = document.getElementById('site-search');
+      if(input){
+        input.addEventListener('keydown', function(e){
+          if(e.key === 'Enter'){
+            e.preventDefault();
+            const q = encodeURIComponent(input.value||'');
+            window.location.href = '/' + (q ? '#q='+q : '');
+          }
+        });
+      }
+    });
+  </script>
 </head>
 <body>
   <header>
@@ -15,7 +34,10 @@
   </header>
   {{BREADCRUMBS}}
   <main>
-    {{CONTENT}}
+    <div class="layout {{LAYOUT_CLASS}}">
+      <div class="content">{{CONTENT}}</div>
+      <aside class="sidebar">{{SIDEBAR}}</aside>
+    </div>
   </main>
   <footer>
     {{FOOTER}}
