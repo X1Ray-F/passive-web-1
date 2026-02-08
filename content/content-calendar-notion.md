@@ -5,6 +5,7 @@ slug: content-calendar-notion
 ---
 
 A lightweight Notion content calendar keeps solo creators and tiny teams on track without turning into a PM monster. This template focuses on fields that matter for publishing speed: status, owner, due date, channel, and a short creative brief.
+Buy Now: [Content Calendar via Products](/products/#calendar)
 
 ## What the template includes
 - Database view with Status (Idea, Drafting, Editing, Scheduled, Published).

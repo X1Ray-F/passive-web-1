@@ -5,6 +5,7 @@ slug: simple-crm-smb
 ---
 
 You do not need a heavyweight CRM to close projects. A focused spreadsheet keeps pipeline, follow-ups, and revenue projections visible in a single tab. This page gives you the columns to copy, stages to track, and reminders that prevent leads from going cold.
+Buy Now: [Simple CRM via Products](/products/#crm)
 
 ## Core columns to copy
 - Company / Contact name

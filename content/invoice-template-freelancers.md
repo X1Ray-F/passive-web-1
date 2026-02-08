@@ -5,6 +5,7 @@ slug: invoice-template-freelancers
 ---
 
 Freelancers bill faster when the invoice is clear, consistent, and ready to send in under two minutes. This page gives you a copy-paste invoice template, shows the essential sections, and explains how to handle taxes, late fees, and payment terms without sounding pushy.
+Buy Now: [Invoice Template via Products](/products/#invoice)
 
 ## When this template is perfect
 - You bill hourly or per project and want clean totals with tax shown separately.

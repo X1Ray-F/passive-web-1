@@ -6,7 +6,8 @@
   <meta name="google-site-verification" content="JESWbUOqLzIquRLC4stXsZSV3indM874I6T1AITucks" />
   <title>{{TITLE}}</title>
   <meta name="description" content="{{DESCRIPTION}}" />
-  <link rel="stylesheet" href="{{BASE}}assets/site.css" />
+  <script defer data-domain="cosmic-fox-d599ef.netlify.app" src="https://plausible.io/js/script.js"></script>
+  <link rel="stylesheet" href="{{BASE}}/assets/site.css" />
 </head>
 <body>
   <header>
@@ -19,5 +20,15 @@
   <footer>
     {{FOOTER}}
   </footer>
+  <script>
+    window.plausible = window.plausible || function(){(window.plausible.q = window.plausible.q || []).push(arguments)};
+    document.addEventListener('DOMContentLoaded', function(){
+      document.querySelectorAll('a.btn[href*="paypal.me"]').forEach(function(el){
+        el.addEventListener('click', function(){
+          try { window.plausible('PayPal Click'); } catch(e) {}
+        });
+      });
+    });
+  </script>
 </body>
 </html>
